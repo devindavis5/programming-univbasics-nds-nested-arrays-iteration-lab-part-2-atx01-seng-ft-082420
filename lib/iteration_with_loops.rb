@@ -9,9 +9,12 @@ while row_index < src.count do
   min_value = 0
   
   while element_index < src[row_index].count do
-    if 
+    if min_value > src[row_index][element_index]
+      min_value = src[row_index][element_index]
+  end 
     elemnent_index += 1
+    min_array << min_value
 end 
-min_array << min_value
 row_index += 1
+min_array
 end
