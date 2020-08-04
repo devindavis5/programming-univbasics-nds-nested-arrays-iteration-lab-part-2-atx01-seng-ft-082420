@@ -16,6 +16,5 @@ while row_index < src.count do
 end 
 min_array << min_value
 row_index += 1
-min_array
 end
 end
