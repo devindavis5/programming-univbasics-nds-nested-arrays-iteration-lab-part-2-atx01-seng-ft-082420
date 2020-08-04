@@ -12,7 +12,7 @@ while row_index < src.count do
     if min_value > src[row_index][element_index]
       min_value = src[row_index][element_index]
   end 
-    elemnent_index += 1
+    element_index += 1
 end 
 min_array << min_value
 row_index += 1
